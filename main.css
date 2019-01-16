@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/323311/pexels-photo-323311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Garamond, serif;
+  font-size:18px;
+  min-height: 100vh;
+}
+
+figure {
+  float:left;
+  color:white;
+  font-size: 12px;
+  background:black;
+  border-top: 10px solid black;
+  margin-right: 15px;
+  opacity: 0.8;
+  letter-spacing: 1.2px;
+}
+
+h1,h2,h4 {
+  letter-spacing: 3px;
+  font-style: oblique;
+  text-shadow: 2px 3px 5px grey;
+}
+
+h2 {
+   position:relative;
+   top:-20px;
+}
+
+h4 {
+   position:relative;
+   top:10px;
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width:85%;
+    opacity: 0.8;
+}
+
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+iframe {
+  opacity: 0.8;
+  margin-top:10px;
+  box-shadow: 2px 3px 5px grey;
+  /* min-width: 250px; */
+}
+
+main.container {
+  background:rgba(245, 245, 245, .95);
+  margin-top:15px;
+  max-width: 95%;
+}
+
+.about {
+  width:85%;
+  margin:auto;
+}
+
+.about p {
+    text-align: left;
+}
+
+.error {
+  /* margin-top:350px;
+  margin-bottom: 500px; */
+  background: rgba(240, 240, 240, 0.8);
+  padding:10px;
+}
+
+.error a {
+  text-decoration: none;
+}
+
+.error a:hover {
+  color:white;
+}
+
+.footer {
+  padding-top:5px;
+  color:white;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.icon {
+  margin:auto;
+  width: 25%;
+  opacity: 0.8;
+  box-shadow: 2px 3px 5px grey;
+}
+
+.navigation {
+  position:fixed;
+  color:white;
+}
+
+.sheetmusic {
+  max-width:80%;
+  margin:auto;
+  padding-bottom: 290px;
+}
+
+.thumbnail {
+  border:none;
+  box-shadow: 2px 3px 5px grey;
+  transition: transform 0.5s;
+}
+
+.thumbnail:hover {
+  transform: scale(1.15);
+}
